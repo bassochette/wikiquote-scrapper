@@ -20,7 +20,7 @@ function scrappy(url, name) {
             }
           );
 
-          jsonfile.writeFileSync(`../fb-anonify/data/kaamelott/${name}.json`, citations);
+          jsonfile.writeFileSync(`./dist/kaamelott/${name}.json`, citations);
       } else {
         console.log("ERROR => ", error);
       }
